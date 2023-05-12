@@ -1,0 +1,41 @@
+html {
+  background: linear-gradient(to bottom, #e6e6e6, #cccccc);
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  font-family: monospace;
+  font-size: 15px;
+  background: linear-gradient(180deg, rgb(245,245,245), rgb(230,230,230));
+  text-align: justify;
+}
+
+h1, h2 {
+  font-family: Consolas, monospace;
+}
+
+h1:hover, h2:hover {
+  text-shadow: 1px 1px 2px black;
+}
+
+h1 {
+  text-align: center;
+}
+
+p:hover, li:hover {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.linkedin {
+  color: #0077B5;
+}
+
+.github {
+  color: #24292e ;
+}
